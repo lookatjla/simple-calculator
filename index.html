@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <link rel="stylesheet" href="css/index.css">
   <script src="index.js" defer></script>
   <title>Simple Calculator</title>
 </head>
@@ -13,7 +14,8 @@
   </header>
   
   <main>
-    <form>
+    <div id="calc-container">
+      <form>
       <p>Number 1: <input type="text" id="number1Field"></p>
       <p>Number 2: <input type="text" id="number2Field"></p>
 
@@ -24,8 +26,13 @@
       <input type="button" id="divideButton" value="Divide">
       <p>Answer: <input id="answerField"></p>
 
-      <input type="reset" value="Reset">
+      <div id="reset-button">
+        <input type="reset" value="Reset">
+      </div>
+      
     </form>
+    </div>
+    
     
   </main>
 </body>

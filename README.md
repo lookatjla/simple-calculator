@@ -4,4 +4,4 @@ Here is a simple calculator created using HTML and JavaScript. Users can add, su
 
 https://lookatjla.github.io/simple-calculator/
 
-![simple-calculator-image](images/calculator-image.png)
+![simple-calculator-image](images/simple-calculator.png)
